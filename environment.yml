@@ -1,0 +1,16 @@
+name: nf_phylo
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.13
+  - biopython=1.78 
+  - natsort=7.0.1
+  - pandas=0.25.3
+  - matplotlib=3.1.0
+  - bcftools=1.12
+  - samtools=1.12
+  - htslib=1.12
+  - iqtree=2.0.3
+  - seqkit=0.16.0

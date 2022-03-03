@@ -1,0 +1,17 @@
+Individual	Scaffold	Consensus_fn
+DalbM148	chr1A	/path/to/DalbM148_chr1A.fa
+DalbM148	chr17	/path/to/DalbM148_chr17.fa
+DalbM148	chr24	/path/to/DalbM148_chr24.fa
+DalbM148	chrUN6	/path/to/DalbM148_chrUN6.fa
+EmeyM165	chr1A	/path/to/EmeyM165_chr1A.fa
+EmeyM165	chr17	/path/to/EmeyM165_chr17.fa
+EmeyM165	chr24	/path/to/EmeyM165_chr24.fa
+EmeyM165	chrUN6	/path/to/EmeyM165_chrUN6.fa
+EpiAst118	chr1A	/path/to/EpiAst118_chr1A.fa
+EpiAst118	chr17	/path/to/EpiAst118_chr17.fa
+EpiAst118	chr24	/path/to/EpiAst118_chr24.fa
+EpiAst118	chrUN6	/path/to/EpiAst118_chrUN6.fa
+LpyrF013	chr1A	/path/to/LpyrF013_chr1A.fa
+LpyrF013	chr17	/path/to/LpyrF013_chr17.fa
+LpyrF013	chr24	/path/to/LpyrF013_chr24.fa
+LpyrF013	chrUN6	/path/to/LpyrF013_chrUN6.fa

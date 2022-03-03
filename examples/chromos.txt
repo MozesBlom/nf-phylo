@@ -1,0 +1,4 @@
+chr1A
+chr17
+chr24
+chrUN6
