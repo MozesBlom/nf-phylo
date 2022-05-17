@@ -13,4 +13,4 @@ dependencies:
   - samtools=1.12
   - htslib=1.12
   - iqtree=2.0.3
-  - seqkit=0.16.0
+  - seqkit=2.2

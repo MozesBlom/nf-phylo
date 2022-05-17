@@ -1,5 +1,10 @@
 #!/usr/bin/env nextflow
 
+/*
+ * Specify that code written in DSL1
+ */
+export NXF_DEFAULT_DSL=1
+
 log.info """\
 		From VCF to Phylogeny - NF phylo    
 		===================================
@@ -110,8 +115,9 @@ if (params.call_consensus == true) {
 } else {
 	channel
 		.fromPath(params.consensus_tsv_fn)
-		.splitCsv(header:true)
+		.splitCsv(header:true, sep:'\t')
 		.map { row -> tuple(row.Individual, row.Scaffold, file(row.Consensus_fn)) }
+		.groupTuple(by: 0)
 		.map{ it ->
 
 			def indiv = it[0]
@@ -180,7 +186,8 @@ process summarise_cons_N {
 
 	script:
 	"""
-
+	unset DISPLAY
+	
 	00b_consensus_stats.py \
 	-c ${cons_stats_fn_list}
 

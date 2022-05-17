@@ -7,6 +7,8 @@ try:
 	import os
 	import argparse
 	import pandas as pd
+	import matplotlib
+	matplotlib.use('Agg')
 	import matplotlib.pyplot as plt
 except ImportError:
 	sys.exit("One of the required modules can't be found...")
