@@ -3,7 +3,7 @@
 /*
  * Specify that code written in DSL1
  */
-export NXF_DEFAULT_DSL=1
+nextflow.enable.dsl=1
 
 log.info """\
 		From VCF to Phylogeny - NF phylo    
