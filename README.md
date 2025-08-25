@@ -17,7 +17,7 @@ The pipeline is built using [Nextflow](https://www.nextflow.io) (DSL1), a workfl
     ```bash
     ./nf-phylo/nextflow.config
     ```
-4. Create a nextflow config profile that matches your cluster set-up ( [`profile`]( https://www.nextflow.io/docs/latest/config.html#config-profiles) and start running your own analysis!
+4. Create a nextflow config profile that matches your cluster set-up [`profile`]( https://www.nextflow.io/docs/latest/config.html#config-profiles) and start running your own analysis!
 
     ```bash
     nextflow run ./nf-phylo/phylo.nf -profile mfn
